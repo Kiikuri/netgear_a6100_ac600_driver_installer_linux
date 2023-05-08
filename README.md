@@ -4,17 +4,16 @@ Bash script to install the necessary drivers for Netgear's AC600 Dual Band Wirel
 The installer installs the rtl8812au drivers from https://github.com/aircrack-ng/rtl8812au automatically for linux based operating systems.
 You might need to reboot your system after the installer runs apt dist-upgrade, so that it can find all the necessary headers and install them.
 
-Instructions:
+**Instructions:**
 
-1. Download and extract the file from the ZIP
+1. Download and extract the ZIP file
 2. Open terminal
 3. Run `sudo su`
-4. Locate the file in the terminal
-5. Run the bash file:
+4. Locate the bash file in the terminal
+5. Run ```bash NETGEAR_A6100_driver_installer.sh```
 
-```
-bash NETGEAR_A6100_driver_installer.sh
-```
+
+**Alternatively:**
 
 You can try to run the script with the command:
 
